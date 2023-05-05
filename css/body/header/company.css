@@ -1,0 +1,59 @@
+/* section configuring */
+
+header {
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 11vh 8vh;
+}
+
+/* sub section code start */
+
+#company {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#sub-name {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    grid-column: 1 / -1;
+
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    margin: 0 0 0 1rem;
+
+    color:var(--background-color-3);
+    font-style: sans-serif;
+    font-size: 3rem;
+
+    border-bottom: 0.18rem solid var(--background-color-3);
+}
+
+#subtitle {
+    margin-left: 4rem;
+
+    grid-column: 1 / -1;
+
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#company a:-webkit-any-link {
+    color: var(--background-color-3);
+    cursor: pointer;
+}
