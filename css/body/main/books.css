@@ -128,6 +128,11 @@
   }
 
   @media (max-width: 1104px) {
+    .overlay {
+        position: relative;
+        bottom: 76.99%;
+      }
+
 
     #book-1 { 
         height: 70%;

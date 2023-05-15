@@ -142,7 +142,7 @@ figcaption {
     }
 
     #fill-in {
-       font-size: small;
+       font-size: medium;
     }
     
     #form {
@@ -164,6 +164,10 @@ figcaption {
     #business-info {
         font-size: 1.05rem;
     }
+
+    #fill-in {
+        font-size: small;
+     }
 
     #form {  
         grid-template-rows: 4% 25% 61.8% 6%;
