@@ -35,3 +35,16 @@
 }
 
 .quote-hr { width: 80%; height: fit-content; }
+
+
+@media (max-width: 1554px) {
+    #quote {
+        font-size: 1.45rem;
+    }
+  }
+
+  @media (max-width: 1104px) {
+    #quote {
+        font-size: 1.27rem;
+    }
+  }

@@ -115,3 +115,33 @@
     -ms-transform: translate(-50%, -50%);
     cursor: pointer;
   }
+
+
+  @media (max-width: 1554px) {
+    #books-background {
+        height: 90%;
+    }
+
+    #books-title {
+        font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 1104px) {
+
+    #book-1 { 
+        height: 70%;
+    }
+    
+    #book-2 {
+        height: 70%;
+    }
+    
+    #book-3 { 
+        height: 70%;
+    }
+    #book-4 {
+        
+        height: 70%;
+    }
+  }

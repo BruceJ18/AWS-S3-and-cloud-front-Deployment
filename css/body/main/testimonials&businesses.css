@@ -61,3 +61,36 @@
     background-color: transparent;
     
 }
+
+@media (max-width: 1554px) {
+    #testimonials-title, #sold-title {
+        font-size: 1.2rem;
+    }
+
+    .testimonial, .business {
+        font-size: 0.9rem;
+    }
+
+    #reviews-and-sold-background {   
+        width: 50vw;
+        
+    }
+  }
+
+  @media (max-width: 1250px) {
+    .testimonial, .business {
+        font-size: 0.93rem;
+    }
+  }
+
+  @media (max-width: 1210px) {
+    .testimonial, .business {
+        font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 1170px) {
+    .testimonial, .business {
+        font-size: 0.75rem;
+    }
+  }

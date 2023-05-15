@@ -3,7 +3,7 @@
     display: grid;
 
     width: 100%;
-    height: 60rem;
+    height: 100%;
 
     grid-template-rows: 4% 28% 61.8% 6%;
     justify-content: center;
@@ -125,4 +125,60 @@ figcaption {
     background-color: slategray;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media (max-width: 1846px) {
+    #business-info {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 1554px) {
+    #business-info {
+        font-size: 1.1rem;
+    }
+
+    figcaption {
+        font-size: small;
+    }
+
+    #fill-in {
+       font-size: small;
+    }
+    
+    #form {
+        display: grid;
+
+        width: 100%;
+        height: 100%;
+
+        grid-template-rows: 4% 28% 61.8% 6%;
+        justify-content: center;
+        align-items: center;
+    
+        border: 2px solid var(--background-color-3);
+        background-color: var(--background-color-2);
+}
+}
+
+@media (max-width: 1336px) {
+    #business-info {
+        font-size: 1.05rem;
+    }
+
+    #form {  
+        grid-template-rows: 4% 25% 61.8% 6%;
+        
+    }
+}
+
+@media (max-width: 1202px) {
+    #business-info {
+        font-size: 0.93rem;
+    }
+}
+
+@media (max-width: 1104px) {
+    #business-info {
+        font-size: 0.9rem;
+    }
 }

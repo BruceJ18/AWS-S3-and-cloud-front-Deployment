@@ -96,3 +96,10 @@
     color: var(--background-color-3);
     text-decoration: none;
 }
+
+@media (max-width: 1104px) {
+    .link {
+        font-size: large;
+        padding: 0;
+    }
+}
