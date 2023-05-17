@@ -94,3 +94,14 @@
         font-size: 0.75rem;
     }
   }
+
+  @media (max-width: 1010px) {
+    #reviews-and-sold-background {
+        grid-row: 5;
+        width: fit-content;
+    }
+
+    .testimonial, .business {
+        font-size: 0.75rem;
+    }
+  }

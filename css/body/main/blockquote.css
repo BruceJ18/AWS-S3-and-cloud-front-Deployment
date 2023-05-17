@@ -48,3 +48,14 @@
         font-size: 1.27rem;
     }
   }
+
+  @media (max-width: 1010px) {
+    #blockquote {
+        grid-row: 4;
+        grid-column: 2 / 3;
+    }
+
+    #quote {
+        font-size: 1rem;
+    }
+  }

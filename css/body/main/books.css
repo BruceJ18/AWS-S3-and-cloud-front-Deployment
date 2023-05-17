@@ -150,3 +150,119 @@
         height: 70%;
     }
   }
+
+  @media (max-width: 1010px) {
+    #books-background {
+        grid-row: 6;
+        grid-column: 2;
+        width: 70%;
+    }
+
+    #books-background figure {
+        width: 89%;
+    }
+    #books-background figure img {
+        left: 30%;
+    }
+
+    .overlay {
+        position: relative;
+        bottom: 76.99%;
+
+      }
+
+
+    #book-1 { 
+        height: 70%;
+        width: 30%;
+    }
+    
+    #book-2 {
+        height: 70%;
+        width: 30%;
+    }
+    
+    #book-3 { 
+        height: 70%;
+        width: 30%;
+    }
+    #book-4 {
+        height: 70%;
+        width: 30%;
+    }
+  }
+
+  @media (max-width: 1010px) {
+    #books-background {
+        grid-row: 6;
+        grid-column: 2;
+        width: 70%;
+    }
+
+    #books-background figure {
+        width: 89%;
+    }
+    #books-background figure img {
+        left: 30%;
+    }
+
+    #book-1 { 
+        height: 70%;
+        width: 40%;
+    }
+    
+    #book-2 {
+        height: 70%;
+        width: 40%;
+    }
+    
+    #book-3 { 
+        height: 70%;
+        width: 40%;
+    }
+    #book-4 {
+        height: 70%;
+        width: 40%;
+    }
+  }
+
+  @media (max-width: 550px) {
+    #books-background {
+        grid-row: 6;
+        grid-column: 2;
+        width: 90%;
+    }
+
+    #books-background figure {
+        width: 85%;
+    }
+    #books-background figure img {
+        left: 30%;
+    }
+
+    .overlay {
+        position: relative;
+        bottom: 76.99%;
+
+      }
+
+
+    #book-1 { 
+        height: 70%;
+        width: 40%;
+    }
+    
+    #book-2 {
+        height: 70%;
+        width: 40%;
+    }
+    
+    #book-3 { 
+        height: 70%;
+        width: 40%;
+    }
+    #book-4 {
+        height: 70%;
+        width: 40%;
+    }
+  }

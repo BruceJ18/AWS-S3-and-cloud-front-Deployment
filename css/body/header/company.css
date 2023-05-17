@@ -73,3 +73,20 @@ h1 {
         width: 4.5rem;
     }
 }
+
+@media (max-width: 550px ) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    #subtitle {
+        font-size: 0.8rem;
+        margin-left: 2.7rem;
+    }
+
+    #logo {
+        margin-top: 20px;
+        height: 3.8rem;
+        width: 3.8rem;
+    }
+}

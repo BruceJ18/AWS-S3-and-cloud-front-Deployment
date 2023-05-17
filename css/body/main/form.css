@@ -127,11 +127,13 @@ figcaption {
     cursor: pointer;
 }
 
+/* side breakpoint modification */
 @media (max-width: 1846px) {
     #business-info {
         font-size: 1.1rem;
     }
 }
+
 @media (max-width: 1554px) {
     #business-info {
         font-size: 1.1rem;
@@ -146,17 +148,11 @@ figcaption {
     }
     
     #form {
-        display: grid;
-
         width: 100%;
         height: 100%;
 
         grid-template-rows: 4% 28% 61.8% 6%;
-        justify-content: center;
-        align-items: center;
-    
-        border: 2px solid var(--background-color-3);
-        background-color: var(--background-color-2);
+        
 }
 }
 
@@ -174,15 +170,150 @@ figcaption {
         
     }
 }
-
+/* side breakpoint modification */
 @media (max-width: 1202px) {
     #business-info {
         font-size: 0.93rem;
     }
 }
 
+/* side breakpoint modification */
 @media (max-width: 1104px) {
     #business-info {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 }
+
+/* main break point modification */
+@media (max-width: 1010px) {
+    #form {
+        grid-column: 2;
+        grid-row: 3;
+        width: 80%;
+        height: 100%;
+
+        grid-template-rows: 4% 26% 65.8% 6%;
+        
+    }
+
+    #submit {
+        height: 50%;
+    }
+
+    #frame {
+        width: 60%;
+        height: 90%;
+    }
+
+    #who { 
+        width: 100%;
+        height: 100%;
+    }
+
+    #business-info {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 650px) {
+    #form {
+        grid-column: 2;
+        grid-row: 3;
+        width: 80%;
+        height: 100%;
+
+        grid-template-rows: 4% 26% 65.8% 6%;
+        
+    }
+
+    figcaption {
+        font-size: 80%;
+    }
+
+    #submit {
+        height: 50%;
+    }
+
+    #frame {
+        width: 75%;
+        height: 85%;
+    }
+
+    #who { 
+        width: 100%;
+        height: 100%;
+    }
+
+    #business-info {
+        font-size: 95%;
+    }
+}
+
+@media (max-width: 650px) {
+    #form {
+        grid-column: 2;
+        grid-row: 3;
+        width: 80%;
+        height: 100%;
+
+        grid-template-rows: 4% 23% 65.8% 6%;
+        
+    }
+
+    figcaption {
+        font-size: 80%;
+    }
+
+    #submit {
+        height: 50%;
+    }
+
+    #frame {
+        width: 58%;
+        height: 85%;
+    }
+
+    #who { 
+        width: 100%;
+        height: 100%;
+    }
+
+    #business-info {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    #form {
+        grid-column: 2;
+        grid-row: 3;
+        width: 80%;
+        height: 100%;
+
+        grid-template-rows: 4% 23% 65.8% 6%;
+        
+    }
+
+    figcaption {
+        font-size: 70%;
+    }
+
+    #submit {
+        height: 50%;
+    }
+
+    #frame {
+        width: 68%;
+        height: 85%;
+    }
+
+    #who { 
+        width: 100%;
+        height: 100%;
+    }
+
+    #business-info {
+        font-size: 90%;
+    }
+}
+
