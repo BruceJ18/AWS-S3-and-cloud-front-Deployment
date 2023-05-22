@@ -5,7 +5,7 @@
     width: 100%;
     height: 100%;
 
-    grid-template-rows: 4% 28% 61.8% 6%;
+    grid-template-rows: 4% 28% 68%;
     justify-content: center;
     align-items: center;
     
@@ -37,17 +37,15 @@
 
     grid-template-columns: 50% 50%;
     justify-items: center;
-    align-content: center;
+    align-items: center;
     grid-row: 2;
-
-    border-bottom: 2px solid var(--background-color-3);
 }
 
 #frame {
     box-sizing: border-box;
 
     width: 80%;
-    height: 89%;
+    height: 82%;
 
     margin: 0;
 
@@ -67,7 +65,7 @@
 figcaption {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: large;
+    font-size: small;
 }
 
 #business-info {
@@ -134,54 +132,141 @@ figcaption {
     }
 }
 
-@media (max-width: 1554px) {
-    #business-info {
-        font-size: 1.1rem;
+@media (max-width: 1750px) {
+    #frame {
+        width: 83%;
+        height: 83%;
     }
+
+    #fill-in {
+        font-size: medium;
+     }
+
+    #form {
+        width: 100%;
+        height: 100%;
+
+        grid-template-rows: 4% 27% 65%;
+    }
+
+    #business-info {
+        font-size: 1.03rem;
+    }
+
+    figcaption {
+        font-size: small;
+    }
+}
+
+@media (max-width: 1580px) {
+
+    #business-info {
+        font-size: 1rem;
+    }
+
+    #frame {
+        width: 80%;
+        height: 80%;
+    }    
 
     figcaption {
         font-size: small;
     }
 
     #fill-in {
-       font-size: medium;
-    }
+        font-size: 0.95rem;
+     }
+
     
     #form {
         width: 100%;
         height: 100%;
 
-        grid-template-rows: 4% 28% 61.8% 6%;
+        grid-template-rows: 4% 28% 67.9%;
+        
+}
+}
+
+@media (max-width: 1554px) {
+
+    #business-info {
+        font-size: 1.2rem;
+    }
+
+    #frame {
+        width: 80%;
+        height: 80%;
+    }    
+
+    figcaption {
+        font-size: small;
+    }
+
+    #fill-in {
+        font-size: 0.95rem;
+     }
+
+    
+    #form {
+        width: 100%;
+        height: 100%;
+
+        grid-template-rows: 4% 28% 67.9%;
+        
+}
+}
+
+@media (max-width: 1500px) {
+    #business-info {
+        font-size: 1.1rem;
+    }
+
+    #frame {
+        height: 85%;
+    }    
+
+    figcaption {
+        font-size: small;
+    }
+
+    #fill-in {
+        font-size: 0.78rem;
+     }
+
+    
+    #form {
+        width: 100%;
+        height: 100%;
         
 }
 }
 
 @media (max-width: 1336px) {
     #business-info {
-        font-size: 1.05rem;
+        font-size: 1.1rem;
     }
 
     #fill-in {
         font-size: small;
      }
-
-    #form {  
-        grid-template-rows: 4% 25% 61.8% 6%;
-        
-    }
 }
 /* side breakpoint modification */
 @media (max-width: 1202px) {
     #business-info {
-        font-size: 0.93rem;
+        font-size: 1.1rem;
     }
 }
 
 /* side breakpoint modification */
 @media (max-width: 1104px) {
     #business-info {
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
+
+    #frame {
+        width: 90%;
+        height: 85%;
+    }   
 }
 
 /* main break point modification */
@@ -189,10 +274,10 @@ figcaption {
     #form {
         grid-column: 2;
         grid-row: 3;
-        width: 80%;
+        width: 100%;
         height: 100%;
 
-        grid-template-rows: 4% 26% 65.8% 6%;
+        grid-template-rows: 4% 27% 70%;
         
     }
 
@@ -211,7 +296,27 @@ figcaption {
     }
 
     #business-info {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 750px) {
+    #form {
+        grid-column: 2;
+        grid-row: 3;
+
+        grid-template-rows: 4% 26% 72%;
+        
+    }
+
+    #frame {
+        width: 60%;
+        height: 86%;
+    }
+
+
+    #business-info {
+        font-size: 1.28rem;
     }
 }
 
@@ -219,10 +324,8 @@ figcaption {
     #form {
         grid-column: 2;
         grid-row: 3;
-        width: 80%;
-        height: 100%;
 
-        grid-template-rows: 4% 26% 65.8% 6%;
+        grid-template-rows: 4% 26% 72%;
         
     }
 
@@ -235,7 +338,7 @@ figcaption {
     }
 
     #frame {
-        width: 75%;
+        width: 70%;
         height: 85%;
     }
 
@@ -245,75 +348,7 @@ figcaption {
     }
 
     #business-info {
-        font-size: 95%;
-    }
-}
-
-@media (max-width: 650px) {
-    #form {
-        grid-column: 2;
-        grid-row: 3;
-        width: 80%;
-        height: 100%;
-
-        grid-template-rows: 4% 23% 65.8% 6%;
-        
-    }
-
-    figcaption {
-        font-size: 80%;
-    }
-
-    #submit {
-        height: 50%;
-    }
-
-    #frame {
-        width: 58%;
-        height: 85%;
-    }
-
-    #who { 
-        width: 100%;
-        height: 100%;
-    }
-
-    #business-info {
-        font-size: 90%;
-    }
-}
-
-@media (max-width: 650px) {
-    #form {
-        grid-column: 2;
-        grid-row: 3;
-        width: 80%;
-        height: 100%;
-
-        grid-template-rows: 4% 23% 65.8% 6%;
-        
-    }
-
-    figcaption {
-        font-size: 70%;
-    }
-
-    #submit {
-        height: 50%;
-    }
-
-    #frame {
-        width: 68%;
-        height: 85%;
-    }
-
-    #who { 
-        width: 100%;
-        height: 100%;
-    }
-
-    #business-info {
-        font-size: 90%;
+        font-size: 1.3rem;
     }
 }
 
