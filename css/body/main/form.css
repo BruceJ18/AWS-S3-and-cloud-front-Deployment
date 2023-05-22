@@ -274,7 +274,7 @@ figcaption {
     #form {
         grid-column: 2;
         grid-row: 3;
-        width: 100%;
+        width: 90%;
         height: 100%;
 
         grid-template-rows: 4% 27% 70%;
@@ -286,7 +286,7 @@ figcaption {
     }
 
     #frame {
-        width: 60%;
+        width: 70%;
         height: 90%;
     }
 
@@ -296,7 +296,13 @@ figcaption {
     }
 
     #business-info {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 780px) {
+    #business-info {
+        font-size: 1.15rem;
     }
 }
 
@@ -316,7 +322,7 @@ figcaption {
 
 
     #business-info {
-        font-size: 1.28rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -342,13 +348,26 @@ figcaption {
         height: 85%;
     }
 
-    #who { 
-        width: 100%;
-        height: 100%;
+    #business-info {
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 625px) {
+    #business-info {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    #frame {
+        width: 85%;
+        height: 85%;
     }
 
     #business-info {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
 
