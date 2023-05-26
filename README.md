@@ -1,4 +1,4 @@
-# Front-End-Development
+# Cochran Consulting LLC Web App
 Static front-end web application development &amp; deployment to cloud for local business.
 
 Used AWS s3 to store front-end programs but to keep a secure connection and have a low-latency benefit to
